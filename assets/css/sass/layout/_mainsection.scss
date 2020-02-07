@@ -1,0 +1,25 @@
+.container {
+    width: 90%;
+    margin:auto;
+}
+
+.main__noticia {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.main__noticia-card {
+    img {
+        width:100%;
+        }
+
+    p {
+        padding: 0.3125rem 0.625rem;
+    }
+}
+@media (max-width: 576px) {
+    .main__noticia-card img {
+      width: 60%;
+      margin: auto;
+    }
+  }

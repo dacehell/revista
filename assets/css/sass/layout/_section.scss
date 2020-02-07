@@ -1,0 +1,15 @@
+.newsletter {
+    height: 9.375rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:$background;
+
+    h2 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+}
+

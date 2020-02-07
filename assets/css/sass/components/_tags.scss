@@ -1,0 +1,19 @@
+.tags {
+    border-bottom: 1px solid gray;
+
+    .tags__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+        list-style: none;
+
+
+        .tags__list-items {
+            padding: 2px 4px;
+            background-color: steelblue;
+            margin-right: 1px;
+            color: white;
+        }
+    }
+}

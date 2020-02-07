@@ -1,0 +1,17 @@
+
+
+.noticias-destacadas {
+    margin-bottom: 3.125rem;
+    
+    img {
+        widows: 220px;
+        display: block;
+        margin: auto;
+        
+    }
+}
+@media (max-width: 768px) {
+    aside {
+      display: none;
+    }
+  }

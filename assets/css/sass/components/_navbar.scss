@@ -1,0 +1,17 @@
+.nav {
+    display: inline-block;
+    width:100%;
+    text-align: right;
+    
+    .nav__items {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        text-transform: uppercase;
+
+        .nav__item a{
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+    } 
+}
